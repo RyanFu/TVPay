@@ -1,0 +1,1088 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75779ADF0BDE8188645F20FE /* libPods-tvpay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82118139F8CA1CFFD86C9F53 /* libPods-tvpay.a */; };
+		8FC6ADE8202053E000EE3CC7 /* image_jinbi.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6ADE5202053DF00EE3CC7 /* image_jinbi.png */; };
+		8FC6ADE9202053E000EE3CC7 /* image_suipian.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6ADE6202053DF00EE3CC7 /* image_suipian.png */; };
+		8FC6ADEA202053E000EE3CC7 /* image_zuanshi.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6ADE7202053DF00EE3CC7 /* image_zuanshi.png */; };
+		8FC6ADEE20205EEE00EE3CC7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6ADED20205EEE00EE3CC7 /* LoginViewController.m */; };
+		8FC6ADF32020613E00EE3CC7 /* ImageDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6ADF22020613D00EE3CC7 /* ImageDraw.m */; };
+		8FC6ADF92020685F00EE3CC7 /* image_login_tel.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6ADF52020685F00EE3CC7 /* image_login_tel.png */; };
+		8FC6ADFA2020685F00EE3CC7 /* image_login_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6ADF62020685F00EE3CC7 /* image_login_logo.png */; };
+		8FC6ADFB2020685F00EE3CC7 /* image_loginbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6ADF72020685F00EE3CC7 /* image_loginbackground.png */; };
+		8FC6ADFC2020685F00EE3CC7 /* image_login_ver.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6ADF82020685F00EE3CC7 /* image_login_ver.png */; };
+		8FC6AE122020845E00EE3CC7 /* FVCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6ADFF2020845E00EE3CC7 /* FVCustomAlertView.m */; };
+		8FC6AE132020845E00EE3CC7 /* warning_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE012020845E00EE3CC7 /* warning_0.png */; };
+		8FC6AE142020845E00EE3CC7 /* loading_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE032020845E00EE3CC7 /* loading_10.png */; };
+		8FC6AE152020845E00EE3CC7 /* loading_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE042020845E00EE3CC7 /* loading_11.png */; };
+		8FC6AE162020845E00EE3CC7 /* loading_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE052020845E00EE3CC7 /* loading_13.png */; };
+		8FC6AE172020845E00EE3CC7 /* loading_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE062020845E00EE3CC7 /* loading_12.png */; };
+		8FC6AE182020845E00EE3CC7 /* loading_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE072020845E00EE3CC7 /* loading_1.png */; };
+		8FC6AE192020845E00EE3CC7 /* loading_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE082020845E00EE3CC7 /* loading_2.png */; };
+		8FC6AE1A2020845E00EE3CC7 /* loading_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE092020845E00EE3CC7 /* loading_3.png */; };
+		8FC6AE1B2020845E00EE3CC7 /* loading_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE0A2020845E00EE3CC7 /* loading_7.png */; };
+		8FC6AE1C2020845E00EE3CC7 /* loading_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE0B2020845E00EE3CC7 /* loading_6.png */; };
+		8FC6AE1D2020845E00EE3CC7 /* loading_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE0C2020845E00EE3CC7 /* loading_4.png */; };
+		8FC6AE1E2020845E00EE3CC7 /* loading_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE0D2020845E00EE3CC7 /* loading_5.png */; };
+		8FC6AE1F2020845E00EE3CC7 /* loading_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE0E2020845E00EE3CC7 /* loading_8.png */; };
+		8FC6AE202020845E00EE3CC7 /* loading_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE0F2020845E00EE3CC7 /* loading_9.png */; };
+		8FC6AE212020845E00EE3CC7 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE102020845E00EE3CC7 /* error.png */; };
+		8FC6AE222020845E00EE3CC7 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE112020845E00EE3CC7 /* success.png */; };
+		8FC6B5C42021A6B500EE3CC7 /* PerCenterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6B5C32021A6B500EE3CC7 /* PerCenterTableViewCell.m */; };
+		8FCEB5BC201B022400FA9E2D /* PerCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEB5BB201B022400FA9E2D /* PerCenterViewController.m */; };
+		8FE073CE2044051100839B93 /* ServiceLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073CD2044051100839B93 /* ServiceLogin.m */; };
+		8FE073D42044065900839B93 /* TVMReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073D32044065800839B93 /* TVMReachability.m */; };
+		8FE073E32044088000839B93 /* TVMConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073DE2044087F00839B93 /* TVMConfig.m */; };
+		8FE073E920440D3F00839B93 /* TVMLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073E820440D3F00839B93 /* TVMLoginModel.m */; };
+		8FE073EC2044165A00839B93 /* MKNetWorkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073EB2044165A00839B93 /* MKNetWorkRequest.m */; };
+		8FE073F02044172800839B93 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073EE2044172800839B93 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8FE073F42044F15400839B93 /* JKCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073F32044F15400839B93 /* JKCountDownButton.m */; };
+		8FE073F72044FDB300839B93 /* RequestResultsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073F62044FDB300839B93 /* RequestResultsModel.m */; };
+		8FE073FA2045053600839B93 /* ServicesUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073F92045053600839B93 /* ServicesUser.m */; };
+		8FE073FD2045073E00839B93 /* TVMUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073FC2045073E00839B93 /* TVMUserModel.m */; };
+		8FE0740020453A9C00839B93 /* GoldCoinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073FF20453A9C00839B93 /* GoldCoinModel.m */; };
+		8FE0740420453F7100839B93 /* ServiceLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073CD2044051100839B93 /* ServiceLogin.m */; };
+		8FE0740520453F7100839B93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF009E52019E69E00944B87 /* main.m */; };
+		8FE0740620453F7100839B93 /* TVMConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073DE2044087F00839B93 /* TVMConfig.m */; };
+		8FE0740720453F7100839B93 /* HideTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF00A002019E6D900944B87 /* HideTabBarViewController.m */; };
+		8FE0740A20453F7100839B93 /* FVCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6ADFF2020845E00EE3CC7 /* FVCustomAlertView.m */; };
+		8FE0740C20453F7100839B93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF009D72019E69D00944B87 /* AppDelegate.m */; };
+		8FE0740D20453F7100839B93 /* PerCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEB5BB201B022400FA9E2D /* PerCenterViewController.m */; };
+		8FE0740E20453F7100839B93 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF009FD2019E6D900944B87 /* MainViewController.m */; };
+		8FE0740F20453F7100839B93 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF009EF2019E6D900944B87 /* Tool.m */; };
+		8FE0741020453F7100839B93 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6ADED20205EEE00EE3CC7 /* LoginViewController.m */; };
+		8FE0741120453F7100839B93 /* ShowTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF00A032019E6D900944B87 /* ShowTabBarViewController.m */; };
+		8FE0741220453F7100839B93 /* MKNetWorkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073EB2044165A00839B93 /* MKNetWorkRequest.m */; };
+		8FE0741320453F7100839B93 /* TVMLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073E820440D3F00839B93 /* TVMLoginModel.m */; };
+		8FE0741420453F7100839B93 /* JKCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073F32044F15400839B93 /* JKCountDownButton.m */; };
+		8FE0741520453F7100839B93 /* TVMReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073D32044065800839B93 /* TVMReachability.m */; };
+		8FE0741620453F7100839B93 /* RequestResultsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073F62044FDB300839B93 /* RequestResultsModel.m */; };
+		8FE0741820453F7100839B93 /* ServicesUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073F92045053600839B93 /* ServicesUser.m */; };
+		8FE0741920453F7100839B93 /* PerCenterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6B5C32021A6B500EE3CC7 /* PerCenterTableViewCell.m */; };
+		8FE0741A20453F7100839B93 /* TVMUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073FC2045073E00839B93 /* TVMUserModel.m */; };
+		8FE0741B20453F7100839B93 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF009FB2019E6D900944B87 /* SetViewController.m */; };
+		8FE0741C20453F7100839B93 /* GoldCoinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073FF20453A9C00839B93 /* GoldCoinModel.m */; };
+		8FE0741D20453F7100839B93 /* ImageDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6ADF22020613D00EE3CC7 /* ImageDraw.m */; };
+		8FE0741E20453F7100839B93 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE073EE2044172800839B93 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8FE0742220453F7100839B93 /* loading_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE0E2020845E00EE3CC7 /* loading_8.png */; };
+		8FE0742320453F7100839B93 /* tab_setIcon_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF00A2E201AE16600944B87 /* tab_setIcon_s.png */; };
+		8FE0742420453F7100839B93 /* image_login_ver.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6ADF82020685F00EE3CC7 /* image_login_ver.png */; };
+		8FE0742520453F7100839B93 /* tab_setIcon_d.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF00A2F201AE16600944B87 /* tab_setIcon_d.png */; };
+		8FE0742620453F7100839B93 /* loading_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE062020845E00EE3CC7 /* loading_12.png */; };
+		8FE0742720453F7100839B93 /* image_login_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6ADF62020685F00EE3CC7 /* image_login_logo.png */; };
+		8FE0742820453F7100839B93 /* image_jinbi.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6ADE5202053DF00EE3CC7 /* image_jinbi.png */; };
+		8FE0742920453F7100839B93 /* image_login_tel.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6ADF52020685F00EE3CC7 /* image_login_tel.png */; };
+		8FE0742A20453F7100839B93 /* loading_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE0B2020845E00EE3CC7 /* loading_6.png */; };
+		8FE0742B20453F7100839B93 /* loading_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE042020845E00EE3CC7 /* loading_11.png */; };
+		8FE0742C20453F7100839B93 /* loading_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE092020845E00EE3CC7 /* loading_3.png */; };
+		8FE0742D20453F7100839B93 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE102020845E00EE3CC7 /* error.png */; };
+		8FE0742E20453F7100839B93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF009DF2019E69E00944B87 /* Assets.xcassets */; };
+		8FE0742F20453F7100839B93 /* loading_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE0C2020845E00EE3CC7 /* loading_4.png */; };
+		8FE0743020453F7100839B93 /* image_loginbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6ADF72020685F00EE3CC7 /* image_loginbackground.png */; };
+		8FE0743120453F7100839B93 /* button_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF00A0F2019E6D900944B87 /* button_back@3x.png */; };
+		8FE0743220453F7100839B93 /* image_zuanshi.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6ADE7202053DF00EE3CC7 /* image_zuanshi.png */; };
+		8FE0743320453F7100839B93 /* tab_mainIcon_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF00A31201AE16600944B87 /* tab_mainIcon_s.png */; };
+		8FE0743420453F7100839B93 /* image_suipian.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6ADE6202053DF00EE3CC7 /* image_suipian.png */; };
+		8FE0743520453F7100839B93 /* loading_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE072020845E00EE3CC7 /* loading_1.png */; };
+		8FE0743620453F7100839B93 /* tab_mainIcon_d.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF00A30201AE16600944B87 /* tab_mainIcon_d.png */; };
+		8FE0743720453F7100839B93 /* loading_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE0F2020845E00EE3CC7 /* loading_9.png */; };
+		8FE0743820453F7100839B93 /* button_back_touch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF00A112019E6D900944B87 /* button_back_touch@2x.png */; };
+		8FE0743920453F7100839B93 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE112020845E00EE3CC7 /* success.png */; };
+		8FE0743A20453F7100839B93 /* button_back_touch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF00A122019E6D900944B87 /* button_back_touch@3x.png */; };
+		8FE0743B20453F7100839B93 /* loading_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE0A2020845E00EE3CC7 /* loading_7.png */; };
+		8FE0743C20453F7100839B93 /* loading_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE0D2020845E00EE3CC7 /* loading_5.png */; };
+		8FE0743D20453F7100839B93 /* button_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF00A102019E6D900944B87 /* button_back@2x.png */; };
+		8FE0743E20453F7100839B93 /* warning_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE012020845E00EE3CC7 /* warning_0.png */; };
+		8FE0743F20453F7100839B93 /* loading_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE052020845E00EE3CC7 /* loading_13.png */; };
+		8FE0744020453F7100839B93 /* loading_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE082020845E00EE3CC7 /* loading_2.png */; };
+		8FE0744120453F7100839B93 /* loading_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6AE032020845E00EE3CC7 /* loading_10.png */; };
+		8FE0754A20455C4000839B93 /* NSObject+DynamicCast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE074F120455C4000839B93 /* NSObject+DynamicCast.m */; };
+		8FE0754B20455C4000839B93 /* NSObject+DynamicCast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE074F120455C4000839B93 /* NSObject+DynamicCast.m */; };
+		8FE0757A20455C4000839B93 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE0752720455C4000839B93 /* NSString+Extension.m */; };
+		8FE0757B20455C4000839B93 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE0752720455C4000839B93 /* NSString+Extension.m */; };
+		8FF009D82019E69D00944B87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF009D72019E69D00944B87 /* AppDelegate.m */; };
+		8FF009E02019E69E00944B87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF009DF2019E69E00944B87 /* Assets.xcassets */; };
+		8FF009E62019E69E00944B87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF009E52019E69E00944B87 /* main.m */; };
+		8FF00A142019E6D900944B87 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF009EF2019E6D900944B87 /* Tool.m */; };
+		8FF00A162019E6D900944B87 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF009FB2019E6D900944B87 /* SetViewController.m */; };
+		8FF00A172019E6D900944B87 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF009FD2019E6D900944B87 /* MainViewController.m */; };
+		8FF00A182019E6D900944B87 /* HideTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF00A002019E6D900944B87 /* HideTabBarViewController.m */; };
+		8FF00A192019E6D900944B87 /* ShowTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF00A032019E6D900944B87 /* ShowTabBarViewController.m */; };
+		8FF00A202019E6D900944B87 /* button_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF00A0F2019E6D900944B87 /* button_back@3x.png */; };
+		8FF00A212019E6D900944B87 /* button_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF00A102019E6D900944B87 /* button_back@2x.png */; };
+		8FF00A222019E6D900944B87 /* button_back_touch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF00A112019E6D900944B87 /* button_back_touch@2x.png */; };
+		8FF00A232019E6D900944B87 /* button_back_touch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF00A122019E6D900944B87 /* button_back_touch@3x.png */; };
+		8FF00A32201AE16600944B87 /* tab_setIcon_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF00A2E201AE16600944B87 /* tab_setIcon_s.png */; };
+		8FF00A33201AE16600944B87 /* tab_setIcon_d.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF00A2F201AE16600944B87 /* tab_setIcon_d.png */; };
+		8FF00A34201AE16600944B87 /* tab_mainIcon_d.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF00A30201AE16600944B87 /* tab_mainIcon_d.png */; };
+		8FF00A35201AE16600944B87 /* tab_mainIcon_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF00A31201AE16600944B87 /* tab_mainIcon_s.png */; };
+		B6351655535852E3388E5D22 /* libPods-tvpay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82118139F8CA1CFFD86C9F53 /* libPods-tvpay.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68011C950EBAD95BB958F91A /* Pods-tvpay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tvpay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tvpay/Pods-tvpay.debug.xcconfig"; sourceTree = "<group>"; };
+		82118139F8CA1CFFD86C9F53 /* libPods-tvpay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tvpay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC6ADE5202053DF00EE3CC7 /* image_jinbi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_jinbi.png; sourceTree = "<group>"; };
+		8FC6ADE6202053DF00EE3CC7 /* image_suipian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_suipian.png; sourceTree = "<group>"; };
+		8FC6ADE7202053DF00EE3CC7 /* image_zuanshi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_zuanshi.png; sourceTree = "<group>"; };
+		8FC6ADEC20205EEE00EE3CC7 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8FC6ADED20205EEE00EE3CC7 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8FC6ADF12020613D00EE3CC7 /* ImageDraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDraw.h; sourceTree = "<group>"; };
+		8FC6ADF22020613D00EE3CC7 /* ImageDraw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageDraw.m; sourceTree = "<group>"; };
+		8FC6ADF52020685F00EE3CC7 /* image_login_tel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_login_tel.png; sourceTree = "<group>"; };
+		8FC6ADF62020685F00EE3CC7 /* image_login_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_login_logo.png; sourceTree = "<group>"; };
+		8FC6ADF72020685F00EE3CC7 /* image_loginbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_loginbackground.png; sourceTree = "<group>"; };
+		8FC6ADF82020685F00EE3CC7 /* image_login_ver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_login_ver.png; sourceTree = "<group>"; };
+		8FC6ADFE2020845E00EE3CC7 /* FVCustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVCustomAlertView.h; sourceTree = "<group>"; };
+		8FC6ADFF2020845E00EE3CC7 /* FVCustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVCustomAlertView.m; sourceTree = "<group>"; };
+		8FC6AE012020845E00EE3CC7 /* warning_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning_0.png; sourceTree = "<group>"; };
+		8FC6AE032020845E00EE3CC7 /* loading_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_10.png; sourceTree = "<group>"; };
+		8FC6AE042020845E00EE3CC7 /* loading_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_11.png; sourceTree = "<group>"; };
+		8FC6AE052020845E00EE3CC7 /* loading_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_13.png; sourceTree = "<group>"; };
+		8FC6AE062020845E00EE3CC7 /* loading_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_12.png; sourceTree = "<group>"; };
+		8FC6AE072020845E00EE3CC7 /* loading_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_1.png; sourceTree = "<group>"; };
+		8FC6AE082020845E00EE3CC7 /* loading_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_2.png; sourceTree = "<group>"; };
+		8FC6AE092020845E00EE3CC7 /* loading_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_3.png; sourceTree = "<group>"; };
+		8FC6AE0A2020845E00EE3CC7 /* loading_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_7.png; sourceTree = "<group>"; };
+		8FC6AE0B2020845E00EE3CC7 /* loading_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_6.png; sourceTree = "<group>"; };
+		8FC6AE0C2020845E00EE3CC7 /* loading_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_4.png; sourceTree = "<group>"; };
+		8FC6AE0D2020845E00EE3CC7 /* loading_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_5.png; sourceTree = "<group>"; };
+		8FC6AE0E2020845E00EE3CC7 /* loading_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_8.png; sourceTree = "<group>"; };
+		8FC6AE0F2020845E00EE3CC7 /* loading_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_9.png; sourceTree = "<group>"; };
+		8FC6AE102020845E00EE3CC7 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		8FC6AE112020845E00EE3CC7 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		8FC6B5C22021A6B500EE3CC7 /* PerCenterTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerCenterTableViewCell.h; sourceTree = "<group>"; };
+		8FC6B5C32021A6B500EE3CC7 /* PerCenterTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerCenterTableViewCell.m; sourceTree = "<group>"; };
+		8FCEB5BA201B022400FA9E2D /* PerCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerCenterViewController.h; sourceTree = "<group>"; };
+		8FCEB5BB201B022400FA9E2D /* PerCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerCenterViewController.m; sourceTree = "<group>"; };
+		8FE073CC2044051100839B93 /* ServiceLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceLogin.h; sourceTree = "<group>"; };
+		8FE073CD2044051100839B93 /* ServiceLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServiceLogin.m; sourceTree = "<group>"; };
+		8FE073D22044065800839B93 /* TVMReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVMReachability.h; sourceTree = "<group>"; };
+		8FE073D32044065800839B93 /* TVMReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVMReachability.m; sourceTree = "<group>"; };
+		8FE073DB2044087F00839B93 /* UrlAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlAddress.h; sourceTree = "<group>"; };
+		8FE073DD2044087F00839B93 /* TVMConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVMConfig.h; sourceTree = "<group>"; };
+		8FE073DE2044087F00839B93 /* TVMConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVMConfig.m; sourceTree = "<group>"; };
+		8FE073E02044088000839B93 /* TVMMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVMMacro.h; sourceTree = "<group>"; };
+		8FE073E720440D3F00839B93 /* TVMLoginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVMLoginModel.h; sourceTree = "<group>"; };
+		8FE073E820440D3F00839B93 /* TVMLoginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVMLoginModel.m; sourceTree = "<group>"; };
+		8FE073EA2044165A00839B93 /* MKNetWorkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetWorkRequest.h; sourceTree = "<group>"; };
+		8FE073EB2044165A00839B93 /* MKNetWorkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetWorkRequest.m; sourceTree = "<group>"; };
+		8FE073EE2044172800839B93 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		8FE073EF2044172800839B93 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		8FE073F22044F15400839B93 /* JKCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKCountDownButton.h; sourceTree = "<group>"; };
+		8FE073F32044F15400839B93 /* JKCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKCountDownButton.m; sourceTree = "<group>"; };
+		8FE073F52044FDB300839B93 /* RequestResultsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestResultsModel.h; sourceTree = "<group>"; };
+		8FE073F62044FDB300839B93 /* RequestResultsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestResultsModel.m; sourceTree = "<group>"; };
+		8FE073F82045053600839B93 /* ServicesUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServicesUser.h; sourceTree = "<group>"; };
+		8FE073F92045053600839B93 /* ServicesUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServicesUser.m; sourceTree = "<group>"; };
+		8FE073FB2045073E00839B93 /* TVMUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVMUserModel.h; sourceTree = "<group>"; };
+		8FE073FC2045073E00839B93 /* TVMUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVMUserModel.m; sourceTree = "<group>"; };
+		8FE073FE20453A9C00839B93 /* GoldCoinModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoldCoinModel.h; sourceTree = "<group>"; };
+		8FE073FF20453A9C00839B93 /* GoldCoinModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoldCoinModel.m; sourceTree = "<group>"; };
+		8FE0744720453F7100839B93 /* tvpay-QA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tvpay-QA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE0744820453F7100839B93 /* tvpay copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "tvpay copy-Info.plist"; path = "/Users/ghy/tvpay/tvpay copy-Info.plist"; sourceTree = "<absolute>"; };
+		8FE074492045429A00839B93 /* TVMNotificationName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVMNotificationName.h; sourceTree = "<group>"; };
+		8FE074D920455C3F00839B93 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		8FE074F020455C3F00839B93 /* NSObject+DynamicCast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DynamicCast.h"; sourceTree = "<group>"; };
+		8FE074F120455C4000839B93 /* NSObject+DynamicCast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DynamicCast.m"; sourceTree = "<group>"; };
+		8FE0752720455C4000839B93 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		8FF009D32019E69D00944B87 /* tvpay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvpay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF009D62019E69D00944B87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FF009D72019E69D00944B87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FF009DF2019E69E00944B87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FF009E42019E69E00944B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FF009E52019E69E00944B87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FF009EF2019E6D900944B87 /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		8FF009F02019E6D900944B87 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		8FF009FA2019E6D900944B87 /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		8FF009FB2019E6D900944B87 /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
+		8FF009FD2019E6D900944B87 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8FF009FE2019E6D900944B87 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8FF00A002019E6D900944B87 /* HideTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HideTabBarViewController.m; sourceTree = "<group>"; };
+		8FF00A012019E6D900944B87 /* ShowTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowTabBarViewController.h; sourceTree = "<group>"; };
+		8FF00A022019E6D900944B87 /* HideTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HideTabBarViewController.h; sourceTree = "<group>"; };
+		8FF00A032019E6D900944B87 /* ShowTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowTabBarViewController.m; sourceTree = "<group>"; };
+		8FF00A0F2019E6D900944B87 /* button_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_back@3x.png"; sourceTree = "<group>"; };
+		8FF00A102019E6D900944B87 /* button_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_back@2x.png"; sourceTree = "<group>"; };
+		8FF00A112019E6D900944B87 /* button_back_touch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_back_touch@2x.png"; sourceTree = "<group>"; };
+		8FF00A122019E6D900944B87 /* button_back_touch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_back_touch@3x.png"; sourceTree = "<group>"; };
+		8FF00A252019E6FD00944B87 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8FF00A2E201AE16600944B87 /* tab_setIcon_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_setIcon_s.png; sourceTree = "<group>"; };
+		8FF00A2F201AE16600944B87 /* tab_setIcon_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_setIcon_d.png; sourceTree = "<group>"; };
+		8FF00A30201AE16600944B87 /* tab_mainIcon_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_mainIcon_d.png; sourceTree = "<group>"; };
+		8FF00A31201AE16600944B87 /* tab_mainIcon_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_mainIcon_s.png; sourceTree = "<group>"; };
+		C71F461CD0A58564DFBDB307 /* Pods-tvpay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tvpay.release.xcconfig"; path = "Pods/Target Support Files/Pods-tvpay/Pods-tvpay.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FE0741F20453F7100839B93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF009D02019E69D00944B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75779ADF0BDE8188645F20FE /* libPods-tvpay.a in Frameworks */,
+				B6351655535852E3388E5D22 /* libPods-tvpay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FC6ADEB20205EE000EE3CC7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8FC6ADEC20205EEE00EE3CC7 /* LoginViewController.h */,
+				8FC6ADED20205EEE00EE3CC7 /* LoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8FC6ADF42020685F00EE3CC7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8FC6ADF52020685F00EE3CC7 /* image_login_tel.png */,
+				8FC6ADF62020685F00EE3CC7 /* image_login_logo.png */,
+				8FC6ADF72020685F00EE3CC7 /* image_loginbackground.png */,
+				8FC6ADF82020685F00EE3CC7 /* image_login_ver.png */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8FC6ADFD2020845E00EE3CC7 /* FVCustomAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				8FC6ADFE2020845E00EE3CC7 /* FVCustomAlertView.h */,
+				8FC6ADFF2020845E00EE3CC7 /* FVCustomAlertView.m */,
+				8FC6AE002020845E00EE3CC7 /* FVCustomAlertView */,
+			);
+			path = FVCustomAlertView;
+			sourceTree = "<group>";
+		};
+		8FC6AE002020845E00EE3CC7 /* FVCustomAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				8FC6AE012020845E00EE3CC7 /* warning_0.png */,
+				8FC6AE022020845E00EE3CC7 /* Loading */,
+				8FC6AE102020845E00EE3CC7 /* error.png */,
+				8FC6AE112020845E00EE3CC7 /* success.png */,
+			);
+			path = FVCustomAlertView;
+			sourceTree = "<group>";
+		};
+		8FC6AE022020845E00EE3CC7 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				8FC6AE032020845E00EE3CC7 /* loading_10.png */,
+				8FC6AE042020845E00EE3CC7 /* loading_11.png */,
+				8FC6AE052020845E00EE3CC7 /* loading_13.png */,
+				8FC6AE062020845E00EE3CC7 /* loading_12.png */,
+				8FC6AE072020845E00EE3CC7 /* loading_1.png */,
+				8FC6AE082020845E00EE3CC7 /* loading_2.png */,
+				8FC6AE092020845E00EE3CC7 /* loading_3.png */,
+				8FC6AE0A2020845E00EE3CC7 /* loading_7.png */,
+				8FC6AE0B2020845E00EE3CC7 /* loading_6.png */,
+				8FC6AE0C2020845E00EE3CC7 /* loading_4.png */,
+				8FC6AE0D2020845E00EE3CC7 /* loading_5.png */,
+				8FC6AE0E2020845E00EE3CC7 /* loading_8.png */,
+				8FC6AE0F2020845E00EE3CC7 /* loading_9.png */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		8FCEB5B9201B020D00FA9E2D /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				8FC6B5C22021A6B500EE3CC7 /* PerCenterTableViewCell.h */,
+				8FCEB5BA201B022400FA9E2D /* PerCenterViewController.h */,
+				8FC6B5C32021A6B500EE3CC7 /* PerCenterTableViewCell.m */,
+				8FCEB5BB201B022400FA9E2D /* PerCenterViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		8FE073ED2044172800839B93 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				8FE073EE2044172800839B93 /* JSONKit.m */,
+				8FE073EF2044172800839B93 /* JSONKit.h */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		8FE073F12044F15400839B93 /* ExCtrl */ = {
+			isa = PBXGroup;
+			children = (
+				8FE073F22044F15400839B93 /* JKCountDownButton.h */,
+				8FE073F32044F15400839B93 /* JKCountDownButton.m */,
+			);
+			path = ExCtrl;
+			sourceTree = "<group>";
+		};
+		8FF009CA2019E69D00944B87 = {
+			isa = PBXGroup;
+			children = (
+				8FF009D52019E69D00944B87 /* tvpay */,
+				8FF009D42019E69D00944B87 /* Products */,
+				D168E1ED9E01BC9A6E53C918 /* Pods */,
+				AE108E99D7DE489797D2F76B /* Frameworks */,
+				8FE0744820453F7100839B93 /* tvpay copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		8FF009D42019E69D00944B87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FF009D32019E69D00944B87 /* tvpay.app */,
+				8FE0744720453F7100839B93 /* tvpay-QA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FF009D52019E69D00944B87 /* tvpay */ = {
+			isa = PBXGroup;
+			children = (
+				8FF009D62019E69D00944B87 /* AppDelegate.h */,
+				8FF009D72019E69D00944B87 /* AppDelegate.m */,
+				8FF009DF2019E69E00944B87 /* Assets.xcassets */,
+				8FF009EC2019E6D900944B87 /* Class */,
+				8FF00A242019E6FD00944B87 /* Supporting */,
+			);
+			path = tvpay;
+			sourceTree = "<group>";
+		};
+		8FF009EC2019E6D900944B87 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				8FE073F12044F15400839B93 /* ExCtrl */,
+				8FF009FF2019E6D900944B87 /* BaseClass */,
+				8FF009ED2019E6D900944B87 /* Category */,
+				8FF009F12019E6D900944B87 /* Config */,
+				8FF009F82019E6D900944B87 /* Controller */,
+				8FF00A042019E6D900944B87 /* Model */,
+				8FF009F72019E6D900944B87 /* NetWork */,
+				8FF00A062019E6D900944B87 /* Resource */,
+				8FF00A132019E6D900944B87 /* Services */,
+				8FF009F62019E6D900944B87 /* Third */,
+				8FF009EE2019E6D900944B87 /* Util */,
+				8FF00A052019E6D900944B87 /* View */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		8FF009ED2019E6D900944B87 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8FE074F020455C3F00839B93 /* NSObject+DynamicCast.h */,
+				8FE074D920455C3F00839B93 /* NSString+Extension.h */,
+				8FE074F120455C4000839B93 /* NSObject+DynamicCast.m */,
+				8FE0752720455C4000839B93 /* NSString+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8FF009EE2019E6D900944B87 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8FF009EF2019E6D900944B87 /* Tool.m */,
+				8FF009F02019E6D900944B87 /* Tool.h */,
+				8FC6ADF12020613D00EE3CC7 /* ImageDraw.h */,
+				8FC6ADF22020613D00EE3CC7 /* ImageDraw.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		8FF009F12019E6D900944B87 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				8FE074492045429A00839B93 /* TVMNotificationName.h */,
+				8FE073DD2044087F00839B93 /* TVMConfig.h */,
+				8FE073DE2044087F00839B93 /* TVMConfig.m */,
+				8FE073E02044088000839B93 /* TVMMacro.h */,
+				8FE073DB2044087F00839B93 /* UrlAddress.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		8FF009F62019E6D900944B87 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				8FE073D22044065800839B93 /* TVMReachability.h */,
+				8FE073D32044065800839B93 /* TVMReachability.m */,
+				8FC6ADFD2020845E00EE3CC7 /* FVCustomAlertView */,
+				8FE073ED2044172800839B93 /* JSONKit */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		8FF009F72019E6D900944B87 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				8FE073EA2044165A00839B93 /* MKNetWorkRequest.h */,
+				8FE073EB2044165A00839B93 /* MKNetWorkRequest.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		8FF009F82019E6D900944B87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FC6ADEB20205EE000EE3CC7 /* Login */,
+				8FCEB5B9201B020D00FA9E2D /* Mine */,
+				8FF009F92019E6D900944B87 /* Set */,
+				8FF009FC2019E6D900944B87 /* Main */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8FF009F92019E6D900944B87 /* Set */ = {
+			isa = PBXGroup;
+			children = (
+				8FF009FA2019E6D900944B87 /* SetViewController.h */,
+				8FF009FB2019E6D900944B87 /* SetViewController.m */,
+			);
+			path = Set;
+			sourceTree = "<group>";
+		};
+		8FF009FC2019E6D900944B87 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8FF009FE2019E6D900944B87 /* MainViewController.h */,
+				8FF009FD2019E6D900944B87 /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8FF009FF2019E6D900944B87 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				8FF00A002019E6D900944B87 /* HideTabBarViewController.m */,
+				8FF00A012019E6D900944B87 /* ShowTabBarViewController.h */,
+				8FF00A022019E6D900944B87 /* HideTabBarViewController.h */,
+				8FF00A032019E6D900944B87 /* ShowTabBarViewController.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		8FF00A042019E6D900944B87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8FE073F52044FDB300839B93 /* RequestResultsModel.h */,
+				8FE073E720440D3F00839B93 /* TVMLoginModel.h */,
+				8FE073FB2045073E00839B93 /* TVMUserModel.h */,
+				8FE073F62044FDB300839B93 /* RequestResultsModel.m */,
+				8FE073E820440D3F00839B93 /* TVMLoginModel.m */,
+				8FE073FC2045073E00839B93 /* TVMUserModel.m */,
+				8FE073FE20453A9C00839B93 /* GoldCoinModel.h */,
+				8FE073FF20453A9C00839B93 /* GoldCoinModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8FF00A052019E6D900944B87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8FF00A062019E6D900944B87 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8FC6ADF42020685F00EE3CC7 /* Login */,
+				8FF00A2B201AC88600944B87 /* Image */,
+				8FF00A072019E6D900944B87 /* Tabbar */,
+				8FF00A0E2019E6D900944B87 /* Button */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8FF00A072019E6D900944B87 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				8FF00A30201AE16600944B87 /* tab_mainIcon_d.png */,
+				8FF00A31201AE16600944B87 /* tab_mainIcon_s.png */,
+				8FF00A2F201AE16600944B87 /* tab_setIcon_d.png */,
+				8FF00A2E201AE16600944B87 /* tab_setIcon_s.png */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		8FF00A0E2019E6D900944B87 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				8FF00A0F2019E6D900944B87 /* button_back@3x.png */,
+				8FF00A102019E6D900944B87 /* button_back@2x.png */,
+				8FF00A112019E6D900944B87 /* button_back_touch@2x.png */,
+				8FF00A122019E6D900944B87 /* button_back_touch@3x.png */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		8FF00A132019E6D900944B87 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8FE073CC2044051100839B93 /* ServiceLogin.h */,
+				8FE073CD2044051100839B93 /* ServiceLogin.m */,
+				8FE073F82045053600839B93 /* ServicesUser.h */,
+				8FE073F92045053600839B93 /* ServicesUser.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8FF00A242019E6FD00944B87 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				8FF009E52019E69E00944B87 /* main.m */,
+				8FF009E42019E69E00944B87 /* Info.plist */,
+				8FF00A252019E6FD00944B87 /* PrefixHeader.pch */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		8FF00A2B201AC88600944B87 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				8FC6ADE5202053DF00EE3CC7 /* image_jinbi.png */,
+				8FC6ADE6202053DF00EE3CC7 /* image_suipian.png */,
+				8FC6ADE7202053DF00EE3CC7 /* image_zuanshi.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		AE108E99D7DE489797D2F76B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82118139F8CA1CFFD86C9F53 /* libPods-tvpay.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D168E1ED9E01BC9A6E53C918 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68011C950EBAD95BB958F91A /* Pods-tvpay.debug.xcconfig */,
+				C71F461CD0A58564DFBDB307 /* Pods-tvpay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FE0740120453F7100839B93 /* tvpay-QA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE0744420453F7100839B93 /* Build configuration list for PBXNativeTarget "tvpay-QA" */;
+			buildPhases = (
+				8FE0740320453F7100839B93 /* Sources */,
+				8FE0741F20453F7100839B93 /* Frameworks */,
+				8FE0742120453F7100839B93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tvpay-QA";
+			productName = tvpay;
+			productReference = 8FE0744720453F7100839B93 /* tvpay-QA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FF009D22019E69D00944B87 /* tvpay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF009E92019E69E00944B87 /* Build configuration list for PBXNativeTarget "tvpay" */;
+			buildPhases = (
+				96B052E3D8ED248AE564A570 /* [CP] Check Pods Manifest.lock */,
+				8FF009CF2019E69D00944B87 /* Sources */,
+				8FF009D02019E69D00944B87 /* Frameworks */,
+				8FF009D12019E69D00944B87 /* Resources */,
+				DF97BC80477E2684D1E60857 /* [CP] Embed Pods Frameworks */,
+				C4B179D7C35F0D98B4C775F8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvpay;
+			productName = tvpay;
+			productReference = 8FF009D32019E69D00944B87 /* tvpay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FF009CB2019E69D00944B87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = jf.zhang;
+				TargetAttributes = {
+					8FE0740120453F7100839B93 = {
+						ProvisioningStyle = Automatic;
+					};
+					8FF009D22019E69D00944B87 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8FF009CE2019E69D00944B87 /* Build configuration list for PBXProject "tvpay" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FF009CA2019E69D00944B87;
+			productRefGroup = 8FF009D42019E69D00944B87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FF009D22019E69D00944B87 /* tvpay */,
+				8FE0740120453F7100839B93 /* tvpay-QA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FE0742120453F7100839B93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE0742220453F7100839B93 /* loading_8.png in Resources */,
+				8FE0742320453F7100839B93 /* tab_setIcon_s.png in Resources */,
+				8FE0742420453F7100839B93 /* image_login_ver.png in Resources */,
+				8FE0742520453F7100839B93 /* tab_setIcon_d.png in Resources */,
+				8FE0742620453F7100839B93 /* loading_12.png in Resources */,
+				8FE0742720453F7100839B93 /* image_login_logo.png in Resources */,
+				8FE0742820453F7100839B93 /* image_jinbi.png in Resources */,
+				8FE0742920453F7100839B93 /* image_login_tel.png in Resources */,
+				8FE0742A20453F7100839B93 /* loading_6.png in Resources */,
+				8FE0742B20453F7100839B93 /* loading_11.png in Resources */,
+				8FE0742C20453F7100839B93 /* loading_3.png in Resources */,
+				8FE0742D20453F7100839B93 /* error.png in Resources */,
+				8FE0742E20453F7100839B93 /* Assets.xcassets in Resources */,
+				8FE0742F20453F7100839B93 /* loading_4.png in Resources */,
+				8FE0743020453F7100839B93 /* image_loginbackground.png in Resources */,
+				8FE0743120453F7100839B93 /* button_back@3x.png in Resources */,
+				8FE0743220453F7100839B93 /* image_zuanshi.png in Resources */,
+				8FE0743320453F7100839B93 /* tab_mainIcon_s.png in Resources */,
+				8FE0743420453F7100839B93 /* image_suipian.png in Resources */,
+				8FE0743520453F7100839B93 /* loading_1.png in Resources */,
+				8FE0743620453F7100839B93 /* tab_mainIcon_d.png in Resources */,
+				8FE0743720453F7100839B93 /* loading_9.png in Resources */,
+				8FE0743820453F7100839B93 /* button_back_touch@2x.png in Resources */,
+				8FE0743920453F7100839B93 /* success.png in Resources */,
+				8FE0743A20453F7100839B93 /* button_back_touch@3x.png in Resources */,
+				8FE0743B20453F7100839B93 /* loading_7.png in Resources */,
+				8FE0743C20453F7100839B93 /* loading_5.png in Resources */,
+				8FE0743D20453F7100839B93 /* button_back@2x.png in Resources */,
+				8FE0743E20453F7100839B93 /* warning_0.png in Resources */,
+				8FE0743F20453F7100839B93 /* loading_13.png in Resources */,
+				8FE0744020453F7100839B93 /* loading_2.png in Resources */,
+				8FE0744120453F7100839B93 /* loading_10.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF009D12019E69D00944B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC6AE1F2020845E00EE3CC7 /* loading_8.png in Resources */,
+				8FF00A32201AE16600944B87 /* tab_setIcon_s.png in Resources */,
+				8FC6ADFC2020685F00EE3CC7 /* image_login_ver.png in Resources */,
+				8FF00A33201AE16600944B87 /* tab_setIcon_d.png in Resources */,
+				8FC6AE172020845E00EE3CC7 /* loading_12.png in Resources */,
+				8FC6ADFA2020685F00EE3CC7 /* image_login_logo.png in Resources */,
+				8FC6ADE8202053E000EE3CC7 /* image_jinbi.png in Resources */,
+				8FC6ADF92020685F00EE3CC7 /* image_login_tel.png in Resources */,
+				8FC6AE1C2020845E00EE3CC7 /* loading_6.png in Resources */,
+				8FC6AE152020845E00EE3CC7 /* loading_11.png in Resources */,
+				8FC6AE1A2020845E00EE3CC7 /* loading_3.png in Resources */,
+				8FC6AE212020845E00EE3CC7 /* error.png in Resources */,
+				8FF009E02019E69E00944B87 /* Assets.xcassets in Resources */,
+				8FC6AE1D2020845E00EE3CC7 /* loading_4.png in Resources */,
+				8FC6ADFB2020685F00EE3CC7 /* image_loginbackground.png in Resources */,
+				8FF00A202019E6D900944B87 /* button_back@3x.png in Resources */,
+				8FC6ADEA202053E000EE3CC7 /* image_zuanshi.png in Resources */,
+				8FF00A35201AE16600944B87 /* tab_mainIcon_s.png in Resources */,
+				8FC6ADE9202053E000EE3CC7 /* image_suipian.png in Resources */,
+				8FC6AE182020845E00EE3CC7 /* loading_1.png in Resources */,
+				8FF00A34201AE16600944B87 /* tab_mainIcon_d.png in Resources */,
+				8FC6AE202020845E00EE3CC7 /* loading_9.png in Resources */,
+				8FF00A222019E6D900944B87 /* button_back_touch@2x.png in Resources */,
+				8FC6AE222020845E00EE3CC7 /* success.png in Resources */,
+				8FF00A232019E6D900944B87 /* button_back_touch@3x.png in Resources */,
+				8FC6AE1B2020845E00EE3CC7 /* loading_7.png in Resources */,
+				8FC6AE1E2020845E00EE3CC7 /* loading_5.png in Resources */,
+				8FF00A212019E6D900944B87 /* button_back@2x.png in Resources */,
+				8FC6AE132020845E00EE3CC7 /* warning_0.png in Resources */,
+				8FC6AE162020845E00EE3CC7 /* loading_13.png in Resources */,
+				8FC6AE192020845E00EE3CC7 /* loading_2.png in Resources */,
+				8FC6AE142020845E00EE3CC7 /* loading_10.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96B052E3D8ED248AE564A570 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tvpay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4B179D7C35F0D98B4C775F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tvpay/Pods-tvpay-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tvpay/Pods-tvpay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF97BC80477E2684D1E60857 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tvpay/Pods-tvpay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FE0740320453F7100839B93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE0740420453F7100839B93 /* ServiceLogin.m in Sources */,
+				8FE0740520453F7100839B93 /* main.m in Sources */,
+				8FE0740620453F7100839B93 /* TVMConfig.m in Sources */,
+				8FE0757B20455C4000839B93 /* NSString+Extension.m in Sources */,
+				8FE0740720453F7100839B93 /* HideTabBarViewController.m in Sources */,
+				8FE0740A20453F7100839B93 /* FVCustomAlertView.m in Sources */,
+				8FE0740C20453F7100839B93 /* AppDelegate.m in Sources */,
+				8FE0740D20453F7100839B93 /* PerCenterViewController.m in Sources */,
+				8FE0740E20453F7100839B93 /* MainViewController.m in Sources */,
+				8FE0740F20453F7100839B93 /* Tool.m in Sources */,
+				8FE0741020453F7100839B93 /* LoginViewController.m in Sources */,
+				8FE0741120453F7100839B93 /* ShowTabBarViewController.m in Sources */,
+				8FE0741220453F7100839B93 /* MKNetWorkRequest.m in Sources */,
+				8FE0741320453F7100839B93 /* TVMLoginModel.m in Sources */,
+				8FE0741420453F7100839B93 /* JKCountDownButton.m in Sources */,
+				8FE0754B20455C4000839B93 /* NSObject+DynamicCast.m in Sources */,
+				8FE0741520453F7100839B93 /* TVMReachability.m in Sources */,
+				8FE0741620453F7100839B93 /* RequestResultsModel.m in Sources */,
+				8FE0741820453F7100839B93 /* ServicesUser.m in Sources */,
+				8FE0741920453F7100839B93 /* PerCenterTableViewCell.m in Sources */,
+				8FE0741A20453F7100839B93 /* TVMUserModel.m in Sources */,
+				8FE0741B20453F7100839B93 /* SetViewController.m in Sources */,
+				8FE0741C20453F7100839B93 /* GoldCoinModel.m in Sources */,
+				8FE0741D20453F7100839B93 /* ImageDraw.m in Sources */,
+				8FE0741E20453F7100839B93 /* JSONKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF009CF2019E69D00944B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE073CE2044051100839B93 /* ServiceLogin.m in Sources */,
+				8FF009E62019E69E00944B87 /* main.m in Sources */,
+				8FE073E32044088000839B93 /* TVMConfig.m in Sources */,
+				8FE0757A20455C4000839B93 /* NSString+Extension.m in Sources */,
+				8FF00A182019E6D900944B87 /* HideTabBarViewController.m in Sources */,
+				8FC6AE122020845E00EE3CC7 /* FVCustomAlertView.m in Sources */,
+				8FF009D82019E69D00944B87 /* AppDelegate.m in Sources */,
+				8FCEB5BC201B022400FA9E2D /* PerCenterViewController.m in Sources */,
+				8FF00A172019E6D900944B87 /* MainViewController.m in Sources */,
+				8FF00A142019E6D900944B87 /* Tool.m in Sources */,
+				8FC6ADEE20205EEE00EE3CC7 /* LoginViewController.m in Sources */,
+				8FF00A192019E6D900944B87 /* ShowTabBarViewController.m in Sources */,
+				8FE073EC2044165A00839B93 /* MKNetWorkRequest.m in Sources */,
+				8FE073E920440D3F00839B93 /* TVMLoginModel.m in Sources */,
+				8FE073F42044F15400839B93 /* JKCountDownButton.m in Sources */,
+				8FE0754A20455C4000839B93 /* NSObject+DynamicCast.m in Sources */,
+				8FE073D42044065900839B93 /* TVMReachability.m in Sources */,
+				8FE073F72044FDB300839B93 /* RequestResultsModel.m in Sources */,
+				8FE073FA2045053600839B93 /* ServicesUser.m in Sources */,
+				8FC6B5C42021A6B500EE3CC7 /* PerCenterTableViewCell.m in Sources */,
+				8FE073FD2045073E00839B93 /* TVMUserModel.m in Sources */,
+				8FF00A162019E6D900944B87 /* SetViewController.m in Sources */,
+				8FE0740020453A9C00839B93 /* GoldCoinModel.m in Sources */,
+				8FC6ADF32020613E00EE3CC7 /* ImageDraw.m in Sources */,
+				8FE073F02044172800839B93 /* JSONKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8FE0744520453F7100839B93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3XM8HWY9B;
+				GCC_PREFIX_HEADER = tvpay/Supporting/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TYPE_QA=1",
+				);
+				INFOPLIST_FILE = "tvpay copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvmining.tvpay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8FE0744620453F7100839B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3XM8HWY9B;
+				GCC_PREFIX_HEADER = tvpay/Supporting/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TYPE_QA=1",
+				);
+				INFOPLIST_FILE = "tvpay copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvmining.tvpay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8FF009E72019E69E00944B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FF009E82019E69E00944B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FF009EA2019E69E00944B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68011C950EBAD95BB958F91A /* Pods-tvpay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3XM8HWY9B;
+				GCC_PREFIX_HEADER = tvpay/Supporting/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TYPE_PRODUCT=1",
+				);
+				INFOPLIST_FILE = tvpay/Supporting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvmining.tvpay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8FF009EB2019E69E00944B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C71F461CD0A58564DFBDB307 /* Pods-tvpay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3XM8HWY9B;
+				GCC_PREFIX_HEADER = tvpay/Supporting/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TYPE_PRODUCT=1",
+				);
+				INFOPLIST_FILE = tvpay/Supporting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvmining.tvpay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FE0744420453F7100839B93 /* Build configuration list for PBXNativeTarget "tvpay-QA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE0744520453F7100839B93 /* Debug */,
+				8FE0744620453F7100839B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF009CE2019E69D00944B87 /* Build configuration list for PBXProject "tvpay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF009E72019E69E00944B87 /* Debug */,
+				8FF009E82019E69E00944B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF009E92019E69E00944B87 /* Build configuration list for PBXNativeTarget "tvpay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF009EA2019E69E00944B87 /* Debug */,
+				8FF009EB2019E69E00944B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FF009CB2019E69D00944B87 /* Project object */;
+}
