@@ -122,7 +122,6 @@
 		8FF00A33201AE16600944B87 /* tab_setIcon_d.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF00A2F201AE16600944B87 /* tab_setIcon_d.png */; };
 		8FF00A34201AE16600944B87 /* tab_mainIcon_d.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF00A30201AE16600944B87 /* tab_mainIcon_d.png */; };
 		8FF00A35201AE16600944B87 /* tab_mainIcon_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF00A31201AE16600944B87 /* tab_mainIcon_s.png */; };
-		B6351655535852E3388E5D22 /* libPods-tvpay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82118139F8CA1CFFD86C9F53 /* libPods-tvpay.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -233,7 +232,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				75779ADF0BDE8188645F20FE /* libPods-tvpay.a in Frameworks */,
-				B6351655535852E3388E5D22 /* libPods-tvpay.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
